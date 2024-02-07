@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kasamo</string>
+    <string name="clicked_on_me">You clicked on me.</string>
+    <string name="click_on_me">Click on me</string>
+    <item name="TEXT_ID" type="id" />
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editweb"
+    android:background="#15202B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/webeditback"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:text="edit your website details"
+            android:textColor="#8899A6"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="edit email"
+            android:drawableRight="@drawable/email"
+            android:textColor="#8899A6"
+            android:textColorHint="#8899A6"
+            android:id="@+id/eemail"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#8899A6"
+            android:text="done"
+            android:id="@+id/doneeditem"
+            android:textAllCaps="false"
+            android:backgroundTint="#192734"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="edit shopname"
+            android:drawableRight="@drawable/shop"
+            android:textColor="#8899A6"
+            android:textColorHint="#8899A6"
+            android:id="@+id/eshopname"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#8899A6"
+            android:text="done"
+            android:id="@+id/doneeditsn"
+            android:textAllCaps="false"
+            android:backgroundTint="#192734"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
